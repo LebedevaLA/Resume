@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Резюме</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class = "content-column">
+            <header><h1>Резюме</h1></header>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#hobbys">Хобби</a></li>
+                    <li><a href="#social">Соцсети</a></li>
+                </ul>
+            </nav>
+            <section id="about" class="first">
+                <div class="photo-block">
+                    <img src="img/MyPhoto.jpg" alt="Моё Фото" class="photo my-photo">
+                    <div class="lines-under-MyPhoto"></div>
+                    <div class="lines-on-MyPhoto"></div>
+                </div>
+                <div class="about_me_container">
+                    <h2>Обо мне</h2>
+                </div>
+                <div class="circular-text-wrapper">
+                    <div class="circular-text-container">
+                        <p>Привет, меня зовут Настя, мне 20 лет, учусь на 4 курсе в университете, начинающий фронтенд разработчик</p>
+                    </div>
+                    <div class="circular-text-container">
+                        <p >Привет, меня зовут Настя, мне 20 лет, учусь на 4 курсе в университете, начинающий фронтенд разработчик</p>
+                    </div>
+                    <div class="circular-text-container" >
+                        <p >Привет, меня зовут Настя, мне 20 лет, учусь на 4 курсе в университете, начинающий фронтенд разработчик</p>
+                    </div>
+                    <div class="circular-text-container" >
+                        <p >Привет, меня зовут Настя, мне 20 лет, учусь на 4 курсе в университете, начинающий фронтенд разработчик</p>
+                    </div>
+                    <div class="circular-text-container">
+                        <p >Привет, меня зовут Настя, мне 20 лет, учусь на 4 курсе в университете, начинающий фронтенд разработчик</p>
+                    </div>
+                    <div class = "line-in-center-rotation"></div>
+                </div>
+            </section>
+            <section id="education" class="second">
+                <div class="text">
+                    <h2>Образование</h2>
+                    <p class="red-line">
+                        Учусь в Нижнем Новгороде в государственном университете имени Лобачевского на направлелении 
+                        “Прикладная информатика” на очном бюджетном отделении. В рамках университетских курсов приобрела
+                        такие навыки как Работа с Базами данных MySQL, изучила Алгоритмы и структуры данных, 
+                        ООП (С++), в рамках курса “Разработка Windows приложений C#” делала разные интересные лабораторные, 
+                        в рамках курса “Web разработка” приобрела базовые навыки по HTML, CSS, JS. 
+                        Летом прошла интенсив по JS от компании T-банк, немного знакома с React
+                    </p>
+
+                    <p class="red-line">Участвую в Яндекс Тренировках по алгоритмам, решаю задачи на Leet Code и Code Run, 
+                        смотрю лекции по фронтенду</p>
+                    <p class="red-line">Очень хочу попасть на стажировку в биг тех компанию, 
+                        чтобы попасть в крутое профессиональное комьюнити и получить опыт работы над крупными  it продуктами
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="third-fifth">
+                <h2>Навыки</h2>
+                <div class="content-row">
+                    <div class="skill-container"><p class="skill-text">CSS</p></div>
+                    <div class="skill-container"><p class="skill-text">HTML</p></div>
+                    <div class="skill-container"><p class="skill-text">JavaScript</p></div>
+                </div>
+                <div class="content-row">
+                    <div class="skill-container"><p class="skill-text">SQL</p></div>
+                    <div class="skill-container"><p class="skill-text">C++</p></div>
+                </div>
+                <div class="content-row">
+                    <div class="skill-container"><p class="skill-text">Python</p></div>
+                </div>
+
+                <div class="cat-photo-block">
+                    <img src="img/Cat.svg" alt="Мем с котом" class="photo">
+                    <div class="lines-under-Cat"></div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="text">
+                    <h2>Портфолио</h2>
+                    <div class="content-row portfolio">
+                        <p>Сертификат Яндекс тренировки</p>
+                        <button  onclick="openPdfSafe('./files/YandexTrain.pdf')">Открыть</button>
+                    </div>
+                    <div class="content-row portfolio">
+                        <p>Сертификат Интенсив JS Т-банк </p>
+                        <button  onclick="openPdfSafe('./files/T-bank.pdf')">Открыть</button>
+                    </div>
+                    <p>
+                        Ссылки на интересные проекты:
+
+                        <br>Странички на React: 
+                        <a href=" https://github.com/LebedevaLA/Web_React"> https://github.com/LebedevaLA/Web_React</a><br>
+                        <br>Первый проект по фронту:
+                        <a href="https://github.com/LebedevaLA/Pottery-Workshop-website">https://github.com/LebedevaLA/Pottery-Workshop-website</a><br>
+                        <br>Это резюме:
+                        <br><br>
+                        <br>Тг бот на Python:
+                        <a href="https://github.com/LebedevaLA/Botic">https://github.com/LebedevaLA/Botic</a><br>
+                        <br>Командный проект:
+                        <a href="https://github.com/LebedevaLA/Nelder_Mead_alg/tree/first_change_by_Anast">https://github.com/LebedevaLA/Nelder_Mead_alg</a><br>
+                        <br>Одна из прикольных лаб на C#:
+                        <a href="https://github.com/LebedevaLA/RedSquare">https://github.com/LebedevaLA/RedSquare</a><br>
+                        <br>Калькулятор и unit тесты к нему:
+                        <a href="https://github.com/LebedevaLA/Calculator-UnitTesting">https://github.com/LebedevaLA/Calculator-UnitTesting</a><br>
+                        <br>Сайт T-news:
+                        <br><br>
+                        <br>Гит:
+                        <a href="https://github.com/LebedevaLA?tab=repositories">https://github.com/LebedevaLA?tab=repositories</a><br>
+                    </p>
+                </div>
+            </section>
+            <section id="hobbys" class="third-fifth">
+                <div class="text">
+                    <h2>Хобби</h2>
+                    <p class="red-line">
+                        Прошла небольшой курс по
+                        керамике, нравится фотографировать на плёнку
+                        <br>Люблю пробовать себя в разных видах спорта, например волейбол, настольный теннис, немного даже в большой теннис поиграла
+                    </p>
+                    <p class="red-line">
+                        Очень хочу ещё мнего на какие творческие мастер-классы сходить)
+                    </p>
+                </div>
+                <div class="cup-photo-block">
+                    <img src="img/Cup.svg" alt="Самодельная кружка" class="photo">
+                    <div class="lines-under-Cup"></div>
+                </div>
+            </section>
+            <section id="social">
+                <div class="text">
+                    <h2>Я В СОЦСЕТЯХ</h2>
+                    <p>
+                        Телеграмм @Annastasia_Lebedeva
+                        <br>Почта <a href="mailto:lebedeva.a.cforwork@gmail.com" class="send">lebedeva.a.cforwork@gmail.com</a>
+                        <br>Яндекс почта <a href="mailto:Anastasia060410@yandex.ru">Anastasia060410@yandex.ru</a>
+                    </p>
+                </div>
+                <div class="content-row for-button">
+                    <button class="send" onclick="location.href='https://t.me/Annastasia_Lebedeva'">Написать</button>
+                </div>
+            </section>
+        </div>
+        <script>
+            console.log("Возьмите меняв команду, пожалуйста");
+            function openPdfSafe(pdfPath) {
+                fetch(pdfPath, { method: 'HEAD' })
+                .then(response => {
+                    if (response.ok) {
+                        window.open(pdfPath, '_blank');
+                    } else {
+                        alert('❌Файл не найден! Возможно браузер блокирует открытие файла из-за политики CORS (Cross-Origin Resource Sharing) Запуститесь через расширение Live Server в VScode');
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    alert('❌Произошла ошибка при открытии файла Возможно браузер блокирует открытие файла из-за политики CORS (Cross-Origin Resource Sharing) Запуститесь через расширение Live Server в VScode');
+                });
+            }
+        </script>
+    </body>
+</html>
